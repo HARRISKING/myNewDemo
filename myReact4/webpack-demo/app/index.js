@@ -7,7 +7,7 @@ function component () {
 
   /* lodash is required for the next line to work */
   // element.innerHTML = _.join(['Hello','webpack'], ' ');
-  element.html(_.join(['hi','webpack','asdfas',"this is awsome"],' '))
+  element.html(_.join(['hi','webpack','asdfas',"that is awsome"],' '))
 
   // return element;
   return element.get(0);
